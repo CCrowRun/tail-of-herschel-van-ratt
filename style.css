@@ -1,0 +1,89 @@
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding:5px;
+}
+
+.emphasis {
+	font-size: 1.5em;
+	font-family: 'Courgette', cursive;
+}
+
+.jumbotron {
+	position:relative;
+	border: 5px outset rgba(168, 138, 178, 1.0);
+	height: 33%;
+	width: 99%;
+	margin: auto;
+	background: -moz-linear-gradient(top, rgba(205,235,139,1) 0%, rgba(205,235,139,0.6) 83%, rgba(205,235,139,0.6) 100%); /*FF3.6-15*/
+	background: -webkit-linear-gradient(top, rgba(205,235,139,1) 0%,rgba(205,235,139,0.6) 83%,rgba(205,235,139,0.6) 100%); /*( Chrome10-25,Safari5.1-6 )*/
+	background: linear-gradient(to bottom, rgba(205,235,139,1) 0%,rgba(205,235,139,0.6) 83%,rgba(205,235,139,0.6) 100%); /*( W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ )*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', endColorstr='#99cdeb8b',GradientType=0 );
+
+}
+
+.big-emphasis {
+	font-size: 3em;
+	font-family: 'Courgette', cursive;
+	z-index: 1;
+	position: relative;
+
+}
+
+#title-pic {
+	position:absolute;
+	right: 0;
+	top: 50%;
+	transform:translateY(-50%);
+}
+
+body {
+	font-size: 23px;
+	font-family: 'Arapey', serif;
+
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+}
+
+.container img {
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display:block;
+	width:963px;
+}
+
+blockquote {
+	font-size:40px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	color: rgb(168, 138, 178);
+	margin: 40px;
+	padding:20px;
+
+}
+
+
+/*
+Font story:
+Accent: font-family: 'Courgette', cursive;
+Sans-Serif: font-family: 'Poiret One', cursive;
+Serif: font-family: 'Arapey', serif;*/
+
+/*
+Color Story:
+Soft green: rgba(205, 235, 139, 0.6)
+Nearly white green: rgba(245, 255, 222)
+bolder green: rgba (198, 255, 73)
+darker purple: rgba (168, 138, 178)
+lighter purple: rgba (240, 198,, 255)
+;*/
+
+/*
+
+*/
