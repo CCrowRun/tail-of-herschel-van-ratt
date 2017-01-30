@@ -45,6 +45,17 @@ body {
 
 }
 
+byline {
+	font-family:'Poiret One', cursive;
+	color: rgb(168, 138, 178);
+	margin: 15px;
+	border-bottom: 2px solid rgba(245, 255, 222, 0.5);
+}
+
+.byline {
+
+}
+
 .container {
 	margin: auto;
 	width: 50%;
@@ -66,6 +77,22 @@ blockquote {
 	margin: 40px;
 	padding:20px;
 
+
+}
+
+p:first-child:first-letter {
+	color: rgb(168, 138, 178);
+	font-family: 'Courgette', cursive;
+	font-size:50px;
+	float: left;
+	padding-right:8px;
+	line-height: 50px;
+
+  /* font-size: 75px;
+
+  padding-top: 4px;
+
+  padding-left: 3px; */
 }
 
 
