@@ -3,7 +3,7 @@ h1 {
 	font-family: 'Poiret One', cursive;
 	font-size: 40px;
 	text-align: center;
-	padding:200px 5px 5px 5px;
+	padding:100px 5px 5px 5px;
 }
 
 .emphasis {
@@ -15,15 +15,12 @@ h1 {
 
 .jumbotron {
 	position:relative;
-	height: 500px;
-	width: 1600px;
+	height: 33%;
+	width: 75%;
 	background-image: url("header-flourish.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
 	margin: auto;
-	/*background: -moz-linear-gradient(top, rgba(205,235,139,1) 0%, rgba(205,235,139,0.6) 83%, rgba(205,235,139,0.6) 100%); /*FF3.6-15*/
-	/*background: -webkit-linear-gradient(top, rgba(205,235,139,1) 0%,rgba(205,235,139,0.6) 83%,rgba(205,235,139,0.6) 100%); /*( Chrome10-25,Safari5.1-6 )*/
-	/*background: linear-gradient(to bottom, rgba(205,235,139,1) 0%,rgba(205,235,139,0.6) 83%,rgba(205,235,139,0.6) 100%); /*( W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ )*/
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', endColorstr='#99cdeb8b',GradientType=0 );
-	border: 5px outset rgba(168, 138, 178, 1.0);*/
 }
 
 .big-emphasis {
@@ -32,13 +29,6 @@ h1 {
 	position: relative;
 	z-index: 1;
 
-}
-
-#title-pic {
-	float: center;
-	/*right: 0;
-	top: 50%;
-	transform:translateY(-50%);*/
 }
 
 body {
@@ -52,10 +42,6 @@ byline {
 	color: rgb(168, 138, 178);
 	margin: 15px;
 	border-bottom: 2px solid rgba(245, 255, 222, 0.5);
-}
-
-.byline {
-
 }
 
 .container {
@@ -89,12 +75,6 @@ p:first-child:first-letter {
 	float: left;
 	padding-right:8px;
 	line-height: 50px;
-
-  /* font-size: 75px;
-
-  padding-top: 4px;
-
-  padding-left: 3px; */
 }
 
 
