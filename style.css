@@ -1,71 +1,39 @@
-
-h1 {
-	font-family: 'Poiret One', cursive;
-	font-size: 40px;
-	text-align: center;
-	padding:100px 5px 5px 5px;
-}
-
-.emphasis {
-	font-size: 1.5em;
-	font-family: 'Courgette', cursive;
-	position: relative;
-	z-index: 1;
-}
-
+/*Header Code*/
 .jumbotron {
-	position:relative;
-	height: 33%;
-	width: 75%;
 	background-image: url("header-flourish.png");
+	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: auto;
 }
 
-.big-emphasis {
-	font-size: 3em;
-	font-family: 'Courgette', cursive;
-	position: relative;
-	z-index: 1;
+	h1 {
+		font-family: 'Poiret One', cursive;
+		padding: 2% 5%;
+	}
 
-}
+	.emphasis {
+		font-size: 1.25em;
+		font-family: 'Courgette', cursive;
+	}
 
-body {
+	.big-emphasis {
+		font-size: 2em;
+		font-family: 'Courgette', cursive;
+	}
+
+	byline {
+		font-size: 1.75em;
+		font-family:'Poiret One', cursive;
+		color: rgb(168, 138, 178);
+		border-bottom: 2px solid rgba(245, 255, 222, 0.5);
+	}
+
+/*Story Code*/
+
+p {
 	font-size: 23px;
 	font-family: 'Arapey', serif;
-
-}
-
-byline {
-	font-family:'Poiret One', cursive;
-	color: rgb(168, 138, 178);
-	margin: 15px;
-	border-bottom: 2px solid rgba(245, 255, 222, 0.5);
-}
-
-.container {
-	margin: auto;
-	width: 50%;
-}
-
-.container img {
-	margin: auto;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	display:block;
-	width:963px;
-}
-
-blockquote {
-	font-size:40px;
-	text-align: center;
-	font-family: 'Courgette', cursive;
-	color: rgb(168, 138, 178);
-	margin: 40px;
-	padding:20px;
-
-
 }
 
 p:first-child:first-letter {
@@ -77,6 +45,11 @@ p:first-child:first-letter {
 	line-height: 50px;
 }
 
+blockquote {
+	font-size: 35px;
+	font-family: 'Courgette', cursive;
+	color: rgb(168, 138, 178);
+}
 
 /*
 Font story:
@@ -92,7 +65,3 @@ bolder green: rgba (198, 255, 73)
 darker purple: rgba (168, 138, 178)
 lighter purple: rgba (240, 198,, 255)
 ;*/
-
-/*
-
-*/

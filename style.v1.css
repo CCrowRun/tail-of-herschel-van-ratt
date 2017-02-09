@@ -1,0 +1,98 @@
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding:100px 5px 5px 5px;
+}
+
+.emphasis {
+	font-size: 1.5em;
+	font-family: 'Courgette', cursive;
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron {
+	position:relative;
+	height: 33%;
+	width: 75%;
+	background-image: url("header-flourish.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.big-emphasis {
+	font-size: 3em;
+	font-family: 'Courgette', cursive;
+	position: relative;
+	z-index: 1;
+
+}
+
+body {
+	font-size: 23px;
+	font-family: 'Arapey', serif;
+
+}
+
+byline {
+	font-family:'Poiret One', cursive;
+	color: rgb(168, 138, 178);
+	margin: 15px;
+	border-bottom: 2px solid rgba(245, 255, 222, 0.5);
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+}
+
+.container img {
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display:block;
+	width:963px;
+}
+
+blockquote {
+	font-size:40px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	color: rgb(168, 138, 178);
+	margin: 40px;
+	padding:20px;
+
+
+}
+
+p:first-child:first-letter {
+	color: rgb(168, 138, 178);
+	font-family: 'Courgette', cursive;
+	font-size:50px;
+	float: left;
+	padding-right:8px;
+	line-height: 50px;
+}
+
+
+/*
+Font story:
+Accent: font-family: 'Courgette', cursive;
+Sans-Serif: font-family: 'Poiret One', cursive;
+Serif: font-family: 'Arapey', serif;*/
+
+/*
+Color Story:
+Soft green: rgba(205, 235, 139, 0.6)
+Nearly white green: rgba(245, 255, 222)
+bolder green: rgba (198, 255, 73)
+darker purple: rgba (168, 138, 178)
+lighter purple: rgba (240, 198,, 255)
+;*/
+
+/*
+
+*/
